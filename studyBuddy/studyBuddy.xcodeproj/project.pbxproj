@@ -29,9 +29,27 @@
 		8BE5BC222E71D801000568FD /* studyBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = studyBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8BACCC742E7C622C007F10D7 /* Exceptions for "studyBuddy" folder in "studyBuddy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8BE5BC0A2E71D7FE000568FD /* studyBuddy */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		8BACCC702E7C5FE0007F10D7 /* Fonts */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		8BE5BC0D2E71D7FE000568FD /* studyBuddy */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8BACCC742E7C622C007F10D7 /* Exceptions for "studyBuddy" folder in "studyBuddy" target */,
+			);
 			path = studyBuddy;
 			sourceTree = "<group>";
 		};
@@ -75,6 +93,7 @@
 		8BE5BC022E71D7FE000568FD = {
 			isa = PBXGroup;
 			children = (
+				8BACCC702E7C5FE0007F10D7 /* Fonts */,
 				8BE5BC0D2E71D7FE000568FD /* studyBuddy */,
 				8BE5BC1B2E71D801000568FD /* studyBuddyTests */,
 				8BE5BC252E71D801000568FD /* studyBuddyUITests */,
@@ -108,6 +127,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				8BACCC702E7C5FE0007F10D7 /* Fonts */,
 				8BE5BC0D2E71D7FE000568FD /* studyBuddy */,
 			);
 			name = studyBuddy;
@@ -400,6 +420,7 @@
 				DEVELOPMENT_TEAM = PN693A5VCT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = studyBuddy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +449,7 @@
 				DEVELOPMENT_TEAM = PN693A5VCT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = studyBuddy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
